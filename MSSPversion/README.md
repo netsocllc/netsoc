@@ -33,4 +33,4 @@ The template performs the following tasks:
 - Enables Scheduled analytics rules that apply to all the enabled connectors 
 
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/netsocllc/testrepo/blob/main/MSSPversion/msspdeploy.json/createUIDefinitionUri/https://github.com/netsocllc/testrepo/blob/main/MSSPversion/createUiDefinition.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/netsocllc/testrepo/blob/main/MSSPversion/msspdeploy.json/createUIDefinitionUri/https://raw.githubusercontent.com/netsocllc/testrepo/main/MSSPversion/createUiDefinition.json)
