@@ -7,14 +7,14 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "netsoc-test-and-dev-02"
+            "defaultValue": "DEFAULTVALUE"
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "netsoc-test-and-dev-02"
+            "defaultValue": "DEFAULTVALUE"
         },
         "managedByTenantId": {
             "type": "string",
@@ -30,14 +30,29 @@
             },
             "defaultValue": [
                  {
-                    "principalId": "1d174cd0-a781-4c1c-b9ad-832d16c4f02b",
-                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                    "principalIdDisplayName": "Analyst"
-                },
-                {
-                    "principalId": "ae5c9a50-8bbe-47fe-9cf0-5f700b07f0e6",
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "Administrator (Remove Service)"
+                    "principalId": "d7600657-59d6-4733-b2e9-520027b27ebe", 
+                  "roleDefinitionId": "3e150937-b8fe-4cfb-8069-0eaf05ecd056",
+                  "principalIdDisplayName": "SOC Helpdesk - Azure Sentinel Operator" 
+              },
+              { 
+                 "principalId": "eb416bdb-b258-48ec-9434-69225e262a38", 
+                 "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                 "principalIdDisplayName": "SOC Admins - Contributor" 
+              },
+		{ 
+                 "principalId": "eb416bdb-b258-48ec-9434-69225e262a38", 
+                 "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                 "principalIdDisplayName": "SOC Admins - Remove delegation" 
+              },
+              { 
+                "principalId": "7a0a9ef7-4aca-4b5c-871e-18fcbae00c3c", 
+                "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "principalIdDisplayName": "SPN Automated Deployment - Contributor" 
+              },
+			  { 
+                "principalId": "a71e7c66-1de8-41e1-8b11-f5e2ef1a4174", 
+                "roleDefinitionId": "3e150937-b8fe-4cfb-8069-0eaf05ecd056",
+                "principalIdDisplayName": "SPN Sync - Azure Sentinel Operator"
                 }
 
             ]
