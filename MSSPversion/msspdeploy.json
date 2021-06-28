@@ -7,14 +7,14 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "DEFAULTVALUE"
+            "defaultValue": "netsoc-cybersecurity-US-01"
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "DEFAULTVALUE"
+            "defaultValue": "netsoc-cybersecurity-US-01"
         },
         "managedByTenantId": {
             "type": "string",
