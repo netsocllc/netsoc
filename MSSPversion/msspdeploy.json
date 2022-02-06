@@ -21,7 +21,7 @@
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "e5f4d6b1-4091-4771-842b-223436459093"
+            "defaultValue": ""
         },
         "authorizations": {
             "type": "array",
